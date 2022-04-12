@@ -1,0 +1,20 @@
+@startuml
+
+' actor       Actor       as "Originating Client"
+' actor       Actor       as "handling Client"
+' collections Listeners as Listeners
+' actor       Actor       as "Intervention"
+
+"Originating Client" -> Intervention : createIntervention\nrequest
+"Originating Client" <- Intervention : createIntervention\nresponse
+Intervention -> "Listeners" : addIntervention\nevent 
+Intervention -> "Listeners" : currentInterventionChanged\nevent 
+"handling Client" -> Intervention : handleIntervention
+Intervention -> "Listeners" : updateIntervention\nevent 
+Intervention -> "Listeners" : replaceIntervention\nevent 
+Intervention -> "handling Client" : handleIntevetnion\nresponse
+Intervention -> "Listeners" : removeIntervention\nevent 
+Intervention -> "Listeners" : currentInterventionChanged\nevent 
+Intervention -> "Listeners" : currentInterventionChanged_bug\nevent 
+Intervention -> "Listeners" : clear\nevent 
+@enduml

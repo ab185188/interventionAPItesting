@@ -1,0 +1,7 @@
+//scox/v1/retailer1/store2/9b164d56-b4d8-c923-8317-955d4583e43f/interventions/requests/3977658b-cdd2-4061-bc3e-ca6c034a27bd
+{
+    "event": "handleIntervention",
+    "response": {
+        "result": "success"
+    }
+}

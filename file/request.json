@@ -1,0 +1,16 @@
+{
+    "event": "handleIntervention",
+    "source": "ui",
+    "params": {
+        "clientID": "scoui",
+        "interventionID": "e35b2964-9418-41c4-8363-52ba49e90e63",
+        "operatorToken": "",
+        "input": [
+            {
+                "type": "button",
+                "data": "cOk"
+            }
+        ],
+        "clientToken": "eyJhbGciOiJFUzM4NCIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODEyMjE4MjYsImlhdCI6MTY0OTY4NTgyNiwibmJmIjoxNjQ5Njg1ODI2LCJzdWIiOiJzY291aSIsInJldGFpbGVyIjoicmV0YWlsZXIxIiwic3RvcmUiOiJzdG9yZTIiLCJlbmRwb2ludCI6IjliMTY0ZDU2LWI0ZDgtYzkyMy04MzE3LTk1NWQ0NTgzZTQzZiJ9.RQo9eFMMdPbZBoNqlRQEQI6bR6Q3L757ZvYqsxL1S5oD-SwRhASoslKIFaOZtGbo4AtLfJe0Nh69smX6jGEEZ1s7A76tygCQJLaa_eLsjSpFIYhdIN1ThbSyOkmlspMr"
+    }
+}
